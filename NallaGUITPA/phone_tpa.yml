@@ -1,0 +1,19 @@
+menu_title: '&8📱 Phone > TPA'
+size: 27
+items:
+  tpa:
+    material: ENDER_PEARL
+    slot: 13
+    display_name: '&b📍 TPA'
+    lore:
+      - '&7Open the online player list'
+      - ''
+      - '&aClick to open'
+    click_commands:
+      - '[player] guitpa'
+  back:
+    material: ARROW
+    slot: 18
+    display_name: '&e« Back to Phone'
+    click_commands:
+      - '[openguimenu] phone'

@@ -1,0 +1,43 @@
+title: '&8📱 TPA - Online Players'
+request-title: '&8📱 Incoming TPA Request'
+page-size: 45
+request-timeout-seconds: 60
+cooldown-seconds: 5
+allow-tpa-here: true
+messages:
+  sent: '&aTPA request sent to &f%target%&a.'
+  sent-here: '&aTPA-HERE request sent to &f%target%&a.'
+  received: '&e%sender% &fwants to teleport to you.'
+  received-here: '&e%sender% &fwants you to teleport to them.'
+  accepted: '&aTeleport request accepted.'
+  denied: '&cTeleport request denied.'
+  expired: '&cThat teleport request expired.'
+  cooldown: '&cPlease wait %seconds%s before sending another request.'
+  self: '&cYou cannot select yourself.'
+  offline: '&cThat player is no longer online.'
+  no-request: '&cYou have no pending request from that player.'
+  teleported: '&aTeleporting...'
+  disabled: '&cThis TPA option is disabled.'
+items:
+  previous:
+    material: ARROW
+    name: '&e« Previous Page'
+  next:
+    material: ARROW
+    name: '&eNext Page »'
+  close:
+    material: BARRIER
+    name: '&cClose'
+  tpa:
+    name: '&b%player%'
+    lore:
+      - '&7Send a TPA request'
+      - ''
+      - '&aClick to request teleport'
+  tpahere:
+    material: ENDER_PEARL
+    name: '&dTPA-HERE'
+    lore:
+      - '&7Ask the selected player to teleport to you'
+      - ''
+      - '&eClick to send'

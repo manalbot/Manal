@@ -1,0 +1,5 @@
+# Add this menu to your DeluxeMenus gui_menus list.
+# It opens the custom NallaGUITPA player-head menu.
+gui_menus:
+  phone_tpa:
+    file: phone_tpa.yml

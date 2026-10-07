@@ -1,0 +1,11 @@
+# Put this item inside your existing phone.yml items section.
+tpa:
+  material: ENDER_PEARL
+  slot: 20
+  display_name: '&b📱 TPA'
+  lore:
+    - '&7Teleport to another player'
+    - ''
+    - '&eClick to open'
+  click_commands:
+    - '[player] guitpa'

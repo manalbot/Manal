@@ -1,0 +1,15 @@
+name: NallaGUITPA
+version: '1.0.0'
+main: com.nalla.guitpa.NallaGUITPA
+api-version: '1.21'
+author: Nalla SMP
+description: GUI-only TPA system for Nalla SMP
+commands:
+  guitpa:
+    description: Opens the GUI-only TPA menu
+    usage: /guitpa
+    aliases: [tpa-gui, tpagui]
+    permission: nallaguitpa.use
+permissions:
+  nallaguitpa.use:
+    default: true
